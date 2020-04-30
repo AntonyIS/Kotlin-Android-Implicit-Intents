@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+
+        <Button
+            android:id="@+id/btncall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+
+        <Button
+            android:id="@+id/btnsms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sms" />
+
+        <Button
+            android:id="@+id/btnshare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="share" />
+
+        <Button
+            android:id="@+id/btnemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email" />
+
+        <Button
+            android:id="@+id/btnmpesa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mpesa" />
+
+        <Button
+            android:id="@+id/btncamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <ImageView
+            android:id="@+id/img_super"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            app:srcCompat="@drawable/ic_launcher_background"
+            tools:ignore="VectorDrawableCompat"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+</ScrollView>
